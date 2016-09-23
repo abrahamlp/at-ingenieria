@@ -1,0 +1,5 @@
+Olivo: #7267lC
+Amarillo: #DEC329
+Gris Oscuro: #262627
+Gris Claro: #5A5A5A
+Nube: #E6E9ED

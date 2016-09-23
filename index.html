@@ -1,0 +1,181 @@
+<!DOCTYPE HTML>
+<html lang="es">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=0">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" type="text/css" href="css/style-phone.css" media="screen and (max-width: 499px)">
+		<link rel="stylesheet" type="text/css" href="css/style-tablet.css" media="screen and (min-width: 500px) and (max-width: 1149px)">
+		<link rel="stylesheet" type="text/css" href="css/style-desktop.css" media="screen and (min-width: 1150px)">
+		<link rel="stylesheet" type="text/css" href="css/lib/slippry/slippry.css">
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+		<script src="//cdn.jsdelivr.net/velocity/1.1.0/velocity.min.js"></script>
+		<script src="js/lib/slippry.min.js"></script>
+		<script src="http://cdn.jsdelivr.net/jquery.validation/1.15.1/jquery.validate.min.js"></script>
+		<script src="http://spin.js.org/spin.js"></script>
+		<script src="http://spin.js.org/jquery.spin.js"></script>
+		<script src="js/at.js"></script>
+		<title>AT Ingeniería Eléctrica</title>
+	</head>
+	<body ontouchstart="">
+		<nav id="mobile-nav">
+			<img src="img/logo.png" alt="AT Ingeniería Eléctrica">
+			<div id="mobile-menu-buttons">
+				<a id="mobile-menu-button"></a>
+				<a id="mobile-fb-button"></a>
+			</div>
+			<div id="mobile-menu">
+				<ul>
+					<li><a href="main-container">Inicio</a>
+					<li><a href="about-us">Nosotros</a>
+					<li><a href="services">Servicios</a>
+					<li><a href="services-gallery">Galería</a>
+					<li><a href="contact">Contacto</a>
+				</ul>
+			</div>
+		</nav>
+		<nav id="menu-container">
+			<div id="menu-wrapper">
+				<div id="menu">
+					<div id="menu-bar">
+						<div id="menu-line" class="item-1"></div>
+						<div id="menu-item-indicator" class="item-1"></div>
+						<ul>
+							<li><a href="main-container" class="1 active">INICIO</a>
+							<li><a href="about-us" class="2">NOSOTROS</a>
+							<li><a href="services" class="3">SERVICIOS</a>
+							<li><a href="services-gallery" class="4">GALERÍA</a>
+							<li><a href="contact" class="5">CONTACTO</a>
+						</ul>
+						<div id="menu-social">
+							<a href="http://facebook.com/" target="blank">
+								<img src="img/ui/facebook.png" alt="Facebook">
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</nav>
+		<div id="main-container">
+			<header id="welcome-header">
+				<div id="logo"></div>
+				<section id="welcome"></section>
+			</header>
+			<section id="about-us">
+				<div id="about-us-contents">
+					<section id="about-us-mision">
+						<div class="about-us-title">Misión</div>
+						<div class="about-us-desc"></div>
+					</section>
+ 					<section id="about-us-valores">
+ 						<div class="about-us-title">Valores</div>
+ 						<div class="about-us-desc"></div>
+					</section>
+					<section id="about-us-vision">
+						<div class="about-us-title">Visión</div>
+						<div class="about-us-desc"></div>
+					</section>
+				</div>
+				<div id="about-us-separator" class="separator"></div>
+			</section>
+			<section id="services">
+				<h1 class="section-heading">NUESTROS SERVICIOS</h1>
+				<div id="services-lightbox" class="at-lightbox">
+					<ul id="slippry-1">
+						<li>
+							<a><img src="img/content/banner-a-1.png"></a>
+						</li>
+						<li>
+							<a><img src="img/content/banner-a-2.png"></a>
+						</li>
+						<li>
+							<a><img src="img/content/banner-a-3.png"></a>
+						</li>
+						<li>
+							<a><img src="img/content/banner-a-4.png"></a>
+						</li>
+					</ul>
+				</div>
+			</section>
+			<section id="sells">
+				<header>
+					<span>V</span>
+					<h2>enta de equipo eléctrico</h2>
+				</header>
+				<div id="sells-form-container">
+					<form id="sells-form">
+						<div id="sells-form-header"></div>
+						<input type="text" placeholder="Nombre" id="sells-form-name" name="sells-form-name"/><span class="form-required">*</span>
+						<input type="text" placeholder="Teléfono" id="sells-form-tel" name="sells-form-tel" /><span class="form-required"></span>
+						<input type="text" placeholder="Email" id="sells-form-mail" name="sells-form-mail" /><span class="form-required">*</span>
+						<textarea placeholder="Solicitud de Información" id="sells-form-info" name="sells-form-info" rows="10"></textarea><span class="form-required">*</span>
+						<input id="sells-form-submit" type="submit" value="Enviar" />
+						<div id="sells-loading" class="forms-loading"></div>
+						<div id="sells-success" class="forms-message">
+							Tu solicitud de información ha sido envíada
+							<br><br>
+							<input type="button" value="Enviar Otra" />
+						</div>
+						<div id="sells-error" class="forms-message">
+							Tu solicitud no pudo procesarse
+							<br><br>
+							<input type="button" value="De Nuevo" />
+						</div>
+					</form>
+				</div>
+			</section>
+			<section id="services-gallery">
+				<h1 class="section-heading">GALERÍA DE NUESTROS SERVICIOS</h1>
+				<div id="services-gallery-lightbox" class="at-lightbox">
+					<ul id="slippry-2">
+						<li>
+							<a><img src="img/content/banner-b-1.jpg" width="800" height="375"></a>
+						</li>
+						<li>
+							<a><img src="img/content/banner-b-2.jpg" width="800" height="375"></a>
+						</li>
+						<li>
+							<a><img src="img/content/banner-b-3.jpg" width="800" height="375"></a>
+						</li>
+					</ul>
+				</div>
+				<div id="services-gallery-separator" class="separator"></div>
+			</section>
+			<section id="contact">
+				<section id="contact-list">
+					<h1 id="contact-heading" class="section-heading">CONTÁCTANOS</h1>
+					<ul>
+						<li id="contact-mail"><a href="mailto:aira@at-ingenieria.com.mx">aira@at-ingenieria.com.mx</a></li>
+						<li id="contact-tel"><a href="tel:+525582831454">8283 1454</a></li>
+						<li id="contact-mobile"><a href="tel:+525539552725">55 3955 2725</a></li>
+						<li id="contact-fb"><a href="http://facebook.com">facebook/at_ingenieria</a></li>
+					</ul>
+				</section>
+				<section id="contact-form-container">
+					<form id="contact-form" >
+						<div id="contact-form-header"></div>
+						<input type="text" placeholder="Nombre" id="contact-form-name" name="contact-form-name" value="Javier Ramírez"><span class="form-required">*</span>
+						<input type="text" placeholder="Teléfono" id="contact-form-tel" name="contact-form-tel" value="5553923457"><span class="form-required">*</span>
+						<input type="text" placeholder="Email" id="contact-form-mail" name="contact-form-mail" value="j-ram@testmail.com"><span class="form-required">*</span>
+						<textarea placeholder="Solicitud de Información" id="contact-form-info" name="contact-form-info" rows="10"></textarea><span class="form-required">*</span>
+						<input id="contact-form-submit" type="submit" value="Enviar" />
+						<div id="contact-loading" class="forms-loading"></div>
+						<div id="contact-success" class="forms-message">
+							Tu solicitud de información ha sido envíada
+							<br><br>
+							<input type="button" value="Enviar Otra" />
+						</div>
+						<div id="contact-error" class="forms-message">
+							Tu solicitud no pudo procesarse
+							<br><br>
+							<input type="button" value="De Nuevo" />
+						</div>
+					</form>
+				</section>
+				<div class="clear"></div>
+			</section>
+		</div>
+		<footer></footer>
+	</body>
+
+</html>

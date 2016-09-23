@@ -1,0 +1,322 @@
+/* Navigation menu style */
+#mobile-nav{
+	display: none;
+}
+
+nav{
+	font-family: "DigitalSans", sans-serif;
+	font-size: 18px;
+	height: 70px;
+	position: absolute;
+	top: 50px;
+	width: 100%;
+	z-index: 2;
+}
+
+nav.floater{
+	position: fixed;
+	top: 0px;
+	z-index: 2;
+}
+
+#menu-wrapper{
+	margin: auto;
+	height: 100%;
+	width: 1150px;
+}
+
+#menu{
+	height: 100%;
+	width: 100%;
+	-webkit-transition: background-color 0.2s linear,background-image 0.2s linear;
+}
+
+div#menu.below-header{
+	background-color: rgba(90,90,90,0.7);
+	background-image: url("../img/logo.png");
+	background-size: 70px 70px;
+	background-position: 70px 0px;
+	background-repeat: no-repeat;
+}
+
+#menu-bar{
+	background-image: url("../img/ui/menu-bar.png");
+	background-repeat: no-repeat;
+	float: right;
+	height: 100%;
+	position: relative;
+	width: 800px;
+	z-index:2;
+}
+
+#menu-bar ul{
+	border-right: 2px solid #E6E9ED;
+	float:left;
+	height: 30px;
+	list-style: none;
+	margin: 0;
+	margin-top: 15px;
+	margin-left:35px;
+	padding:0;
+	width: 710px;
+}
+
+#menu-bar ul li{
+	color: white;
+	display: inline-block;
+	height: 16px;
+	line-height: 16px;
+	margin:0px;
+	margin-top: 7px;
+	padding: 0px;
+	position: relative;
+	text-align: center;
+	width: 20%;
+	z-index: 2;
+}
+
+#menu-bar ul li a{
+	color: inherit;
+	text-decoration: none;
+	cursor:pointer;
+}
+
+#menu-bar ul li a.active{
+	color: black;
+}
+
+#menu-social{
+	float: right;
+	width: 50px;
+	height: 100%
+}
+
+#menu-social img{
+	height: 20px;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
+#menu-line{
+	background-color:#DEC329;
+	bottom:1px;
+	height: 9px;
+	position: absolute;
+	right: 0px;
+	-webkit-transition: width 0.2s ease-in-out;
+	z-index:2;
+}
+
+div#menu-line.item-1{
+	width: 690px;
+}
+
+div#menu-line.item-2{
+	width: 560px;
+}
+
+div#menu-line.item-3{
+	width: 420px;
+}
+
+div#menu-line.item-4{
+	width: 275px;
+}
+
+div#menu-line.item-5{
+	width: 130px;
+}
+
+#menu-item-indicator{
+	background-color:#DEC329;
+	position: absolute;
+	height: 100%;
+	transform:skewX(43deg);
+	-webkit-transform:skewX(44deg);
+	-webkit-transition: left 0.2s ease-in-out;
+	z-index:2;
+}
+
+div#menu-item-indicator.item-1{
+	left: 60px;
+	width: 95px;
+}
+
+div#menu-item-indicator.item-2{
+	left: 195px;
+	width: 110px;
+}
+
+div#menu-item-indicator.item-3{
+	left: 340px;
+	width: 105px;
+}
+
+div#menu-item-indicator.item-4{
+	left: 487px;
+	width: 96px;
+}
+
+div#menu-item-indicator.item-5{
+	left: 627px;
+	width: 96px;
+}
+
+/* Ends navigation menu style */
+
+/* Main container (wrapper) style */
+#main-container{
+	margin: auto;
+	width: 1150px;
+}
+
+.at-lightbox{
+	height: 375px;
+	width: 800px;
+}
+
+.at-lightbox img{
+	height: 375px;
+	width: 800px;
+}
+/* Ends main container (wrapper) style */
+
+/* Header style */
+#welcome-header{
+	background-image: url("../img/content/3.jpeg");
+	background-size: cover;
+	margin-top:50px;
+	height: 650px;
+	width: 100%;
+}
+
+#logo{
+	background-image: url("../img/logo.png");
+	background-size: cover;
+	display: inline-block;
+	height: 200px;
+	margin: 25px 0 0 25px;
+	width: 200px;
+}
+
+#welcome{
+	height: 350px;
+	margin: 0 0 0 280px;
+	width: 800px;
+}
+/* Ends header style */
+
+/* Services section style */
+#services{
+	padding-top: 110px;
+}
+
+#services h1{
+	margin-left: 70px;
+}
+
+#services-lightbox{
+	margin-top: 50px;
+	margin-bottom: 100px;
+}
+
+/* Ends services section style */
+
+/* Sells section style */
+
+#sells{
+	padding-bottom: 80px;
+}
+
+#sells header{
+	height: 80px;
+}
+
+#sells header span{
+	font-size: 60px;
+	height: 80px;
+	left: 18px;
+	width: 80px;
+}
+
+#sells h2{
+	font-size: 24px;
+	letter-spacing: 2px;
+	height: 66px;
+	line-height: 66px;
+	margin: 0;
+	margin-top: 7px;
+	min-width: 287px;
+	max-width: 287px;
+	padding:0;
+	padding-left: 108px;
+}
+
+#sells-form-container{
+	margin-left: 575px;
+	margin-top: 10px;
+	padding-top: 20px;
+}
+
+/* Ends sells section style */
+
+/* Services gallery section style */
+#services-gallery{
+	padding-top: 120px;
+	padding-bottom: 30px;
+}
+
+#services-gallery h1{
+	margin-left: 70px;
+}
+
+/* Ends Services gallery section style */
+
+/* About us section style */
+#about-us{
+	padding: 90px 0px 0px 0px;
+}
+
+#about-us-contents{
+	margin-bottom: 70px;
+	width: 1130px;
+}
+
+#about-us-contents section{
+	width: 33.1%;
+}
+
+#about-us-mision{
+	float: left;
+}
+
+#about-us-vision{
+	float:right;
+}
+/* Ends About us section style */
+
+/* Contact section style */
+#contact{
+	padding: 140px 0px 70px 0px;
+	height: auto;
+}
+
+#contact section{
+	display: inline-block;
+	width: 49.5%;
+}
+
+#contact-list{
+	margin-top: 50px;
+}
+
+#contact-list h1{
+	margin-left: 70px;
+}
+
+#contact-form-container{
+	float:right;
+}
+
+/* Ends contact section style */
+
