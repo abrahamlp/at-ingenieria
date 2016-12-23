@@ -433,6 +433,15 @@ section#about-us-vision .about-us-desc{
 	border-bottom: 3px solid #DEC329;
 }
 
+.contact-form-error{
+	color: #f96969;
+	display: block;
+	font-size: 12px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+
 /* Ends contact section */
 
 /*Footer style*/

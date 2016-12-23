@@ -38,7 +38,7 @@
 		$message.="Mensaje: $info\n";
 
 		try{
-			if(mail($to,$subject,$message,$headers)){
+			if(mail("abrahamlp@gmail.com",$subject,$message,$headers)){
 				echo "1";
 			}
 			else{
@@ -50,7 +50,7 @@
 		}
 	}	
 	else{
-		echo phpinfo();
+		echo "0";
 	}
 
 	function test_data($data){

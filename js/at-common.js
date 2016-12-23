@@ -123,7 +123,7 @@
 				"required":"Escriba un mensaje por favor"
 			}
 		},
-		errorClass:"form-error",
+		errorClass:"contact-form-error",
 		errorElement:"span",
 		highlight:function(element){
 			$(element).addClass("invalid-input");
